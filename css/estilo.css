@@ -1,1 +1,197 @@
+/*GIF*/
+#espera{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #ffffffa9;
+    position: absolute;
+    z-index: 3;
+}
+img{
+   width: 80px;
+   height: 80px;
+}
 
+*{
+    font-family: resto;
+}
+body{
+    background-color: #ffffff;
+    margin-bottom: 5rem;
+}
+label{
+    color: #000000;
+}
+.form-control{
+    background-color: #ffffff;
+}
+.container{
+    max-width: 95%;
+}
+.tituloSesion{
+    font-size: 55px;
+    text-align: center;
+    margin-top: 1em;
+}
+.segundotitulo{
+    background-color: #001124;
+    color: #ffffff;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+/*ESTILO BARRA NAVEGACION Y FOOTER*/
+.fondo{
+    background-color: #a8b7d6;
+}
+.fondo a{
+    font-family: titulos;
+}
+
+.titulo{
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px #a8b7d6;
+    font-family: titulos;   
+    letter-spacing: 3px;
+}
+.titulo a{
+    color: #000000;
+}
+#scarImagen{
+    width: 100px;
+    height: auto;
+}
+
+/*IMAGENES IZQUIERDA*/
+#scarlatti{
+    margin-left: 8em;
+    margin-top: 1.5em;
+}
+#texto{
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+/*IMAGENES ADMINISTRADOR / USUARIO*/
+#iconoAdmin{
+    font-size: 6em;
+    color: #253a58;
+    transition: color .2s ease-in-out, transform .2s ease-in-out;
+}
+#iconoUser{
+    font-size: 6em;
+    color: #253a58;
+    transition: color .2s ease-in-out, transform .2s ease-in-out;
+}
+
+#iconoAdmin:hover, #iconoUser:hover{
+    color: #001124;
+}
+#iconoAdmin:active, #iconoUser:active{
+    transform: scale(0.9);
+}
+
+/*ESTILO DEL CONTAINER GLOBAL*/
+.global{
+    text-align: center;
+    background-color: #a8b7d6;
+    box-shadow: 0 10px 20px 3px #0007647c;
+    border-radius: 0.5em;
+}
+.ml-5{
+    margin-left: 3em !important;
+}
+
+/*ESTILO TABLA CODIGO PIN*/
+.table{
+    width: 0;
+    border-radius: 0.5em;
+}
+
+.tablaPin{
+    width: 100%;
+    text-align: center;
+}
+.tablaPin tr td{
+    height: 20px;
+    border-radius: 8px;
+    padding: 1.3em;
+}
+
+.pinErroneo{
+    margin-top: -0.7em;
+    margin-bottom: 0.5em;
+}
+
+.reborde2{
+    background-color: #a8b7d6;
+    box-shadow: 0 10px 20px -5px #0007647c;
+    margin-top: -1em;
+}
+
+.code{
+    margin-top: 5em;
+}
+.code tr th{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#bTabla2, #bTabla1{
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.cierre{
+    margin-left: 0.65em;
+}
+
+@media (min-width: 1920px){
+    .segundotitulo{
+        margin-bottom: 7em;
+    }
+    .global{
+        margin-top: -1em;
+        height: 26em;
+        margin-right: 2em;
+    }
+}
+
+@media (max-width: 360px){
+    .fondo a{
+        font-size: 10px;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+}
+
+#digitalSec{
+    margin-top: -0.2em;
+    margin-left: 7em;
+}
+#amPM{
+    margin-top: -4em;
+    margin-left: 11em;
+}
+
+#pausa, #inicia{
+    width: 60px;
+    height: 60px;
+}
